@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-intro {
+  background-color: #f5f6fa;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 295px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+.text {
+  font-weight: 500;
+  color: #111c63;
+}
+.title {
+  color: #111c63;
+}
+#services {
+  background-color: #f5f6fa;
+}
+
+.title-box {
+  text-align: center;
+  color: #111c63;
+  font-size: 45px;
+}
+
+.title-sub {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 18px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.boxService {
+  margin: 20px;
+  padding: 14px 0px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  flex-grow: 1;
+  width: 200px;
+  align-items: center;
+  padding: 10px 1rem;
+
+  /* justify-content: space-around;  */
+}
+.boxService div {
+  margin: 0 0 0 1rem;
+}
+.boxPortfolio {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.boxPortfolio img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.boxService:hover {
+  text-decoration: none;
+}
+.boxService p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.boxService i {
+  margin: 0px;
+  font-size: 30px;
+  color: #ff4444;
+}
+.asocial a i {
+  font-size: 2rem;
+}
+footer {
+  background: #1f3441;
+  color: #f5f6fa;
+}
+.push {
+}
